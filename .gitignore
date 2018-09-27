@@ -1,0 +1,42 @@
+# Don't check auto-generated stuff into git
+coverage
+build
+node_modules
+doc
+stats.json
+./reports
+
+# Cruft
+.DS_Store
+npm-debug.log
+.idea
+
+*.log
+
+dlls/
+
+mochawesome-report
+
+*.sublime-project
+*.sublime-workspace
+
+.env
+.env.test
+
+/public
+/cache
+
+/.c9
+/.nyc_output
+
+# Elastic Beanstalk Files
+
+.elasticbeanstalk/*
+
+!.elasticbeanstalk/*.cfg.yml
+
+!.elasticbeanstalk/*.global.yml
+
+update.js
+
+*.heapsnapshot
